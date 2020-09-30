@@ -99,17 +99,17 @@ with the client, if you want to build the docs, you'll need to get the
 client and compile the rst files into HTML. All this process is
 automated::
 
-    make client
-    make docs
+    make Client
+    make Docs
 
 Once everything is set up correctly, you should be able to run the test
 suite without any failures::
 
-    make test
+    make Test
 
 Run the development server with::
 
-    make run
+    make Run
 
 Postgresql configuration
 ========================
